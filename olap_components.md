@@ -97,6 +97,7 @@ _`The long-term trend to watch is the proliferation of frameworks like Velox, Da
 Traditionally the storage layer in shared-disk
 DBMSs were dedicated on-prem NAS.
 - Example: Oracle Exadata
+
 Cloud object stores are now the prevailing storage
 target for modern OLAP DBMSs because they are
 "infinitely" scalable.
