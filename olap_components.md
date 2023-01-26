@@ -1,3 +1,5 @@
+# Building Blocks Of An OLAP
+
 ### OLAP Commoditization trend
 
 One recent trend of the last decade is the breakout
@@ -16,7 +18,7 @@ Those components are essential parts to build up an OLAP database
 #### 1. Catalogs
 
 Notable implementation:
-- HCatalog
+- **HCatalog**
 - Google Data Catalog
 - Amazon Glue
 
@@ -52,23 +54,23 @@ for extracting data from files.
 - Libraries provide an iterator interface to retrieve (batched)
 columns from files.
 
-HDF5 (1998)
+**HDF5** (1998)
 - Multi-dimensional arrays for
 scientific workloads.
   
-Apache Parquet (2013)
+**Apache Parquet** (2013)
 - Compressed columnar storage from
 Cloudera/Twitter
 
-Apache ORC (2013)
+**Apache ORC** (2013)
 - Compressed columnar storage from
 Apache Hive.
 
-Apache Iceberg (2017)
+**Apache Iceberg** (2017)
 - Flexible data format that supports
 schema evolution from Netflix.
 
-Apache Arrow (2016)
+**Apache Arrow** (2016)
 - In-memory compressed columnar
 storage from Pandas/Dremio.
 
@@ -79,8 +81,8 @@ operators on columnar data.
 - Require external scheduling and orchestration
 
 Notable implementations:
-- Velox
-- DataFusion
+- **Velox**
+- **DataFusion**
 - Intel OAP
 
 Implementation from other databases:
