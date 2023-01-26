@@ -48,6 +48,8 @@ format for their databases.The only way to share
 data between systems is to convert data into a
 common text-based format
 - Examples: CSV, JSON, XML
+
+
 There are open-source binary file formats that make
 it easier to access data across systems and libraries
 for extracting data from files.
