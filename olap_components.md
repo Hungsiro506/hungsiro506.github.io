@@ -17,6 +17,8 @@ Those components are essential parts to build up an OLAP database
 
 #### 1. Catalogs
 
+A catalog of a database instance consists of metadata in which definitions of database objects such as base tables
+
 Notable implementation:
 - **HCatalog**
 - Google Data Catalog
@@ -94,7 +96,15 @@ Implementation from other databases:
 Andy's Note:
 _`The long-term trend to watch is the proliferation of frameworks like Velox, DataFusion, and Polars. Along with projects like Substrait, the commoditization of these query execution components means that all OLAP DBMSs will be roughly equivalent in the next five years. Instead of building a new DBMS entirely from scratch or hard forking an existing system (e.g., how Firebolt forked Clickhouse), people are better off using an extensible framework like Velox. This means that every DBMS will have the same vectorized execution capabilities that were unique to Snowflake ten years ago. And since in the cloud, the storage layer is the same for everyone (e.g., Amazon controls EBS/S3), the critical differentiator between DBMS offerings will be things that are difficult to quantify, like UI/UX stuff and query optimization.`_
 
-### Share Disk Architecture Trend
+### Shared Disk Architecture Trend
+
+There are two common architecture of distributed database:
+Shared nothing and Shared disk.
+Some advantages of Shared Disk Architecture:
+- Scale compute layer independently from the storage layer.
+- Easy to shutdown idle compute layer resources.
+- May need to pull uncached persistent data from storage
+layer to compute layer before applying filters.
 
 Traditionally the storage layer in shared-disk
 DBMSs were dedicated on-prem NAS.
@@ -105,6 +115,11 @@ target for modern OLAP DBMSs because they are
 "infinitely" scalable.
 - Examples: Amazon S3, Azure Blob, Google Cloud Storage, MinIO, Cepth, JuiceFS
 
-Cloud data warehouses and MPP db are mostly Share disk architecture. 
-Newly MPP and OLAP databases are also follow the compute-storage segeration
+Cloud data warehouses are mostly Shared disk architecture. 
+Newly MPP and OLAP databases are also follow the compute-storage segeration by
+partitioning tables into large, immutable files stored in an object store.
+
+Fundamentally these new DBMSs are not different than
+previous distributed/parallel DBMSs except for the
+prevalence of a cloud-based object store for shared disk.
 - Firebolt, Bigquery, Redshift, ....
