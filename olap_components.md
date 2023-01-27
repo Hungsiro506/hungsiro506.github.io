@@ -1,6 +1,5 @@
 # Building Blocks Of An OLAP
-
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=hungsiro506&label=Page%20views&color=ce9927&style=flat" alt="hungsiro506" /> </p>
+![visitors](https://visitor-badge.glitch.me/badge?page_id=hungsiro506.blogs.olap_components&left_color=green&right_color=red)
 
 ### OLAP Commoditization trend
 
