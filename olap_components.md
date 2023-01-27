@@ -1,5 +1,7 @@
 # Building Blocks Of An OLAP
 
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=hungsiro506&label=Page%20views&color=ce9927&style=flat" alt="hungsiro506" /> </p>
+
 ### OLAP Commoditization trend
 
 One recent trend of the last decade is the breakout
