@@ -1,6 +1,6 @@
 ## XÀM XÍ DB ĐẦU NĂM 
+![visitors](https://visitor-badge.glitch.me/badge?page_id=hungsiro506.blogs.2022_db_trends&left_color=green&right_color=red)
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=hungsiro506&label=Page%20views&color=ce9927&style=flat" alt="hungsiro506" /> </p>
 
 ### Part 1 : 2022 database industry reivew:
 Trước hết thử nhìn lại thị trường này năm 2022 ở Mẽo có những trendings gì ?
