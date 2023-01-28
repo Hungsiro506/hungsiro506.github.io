@@ -1,0 +1,13 @@
+[WIP] Steps to optimize query plan. From logical to Optimized Physical.
+
+1. Expression Simplification
+2. Unnesting
+3. Predicate Push Down | Projection Push Down
+4. Side-way Information Passing
+5. Operator Reordering
+6. Early Probing
+7. Common Subtree Elimination
+8. Physical Operator Mapping
+9. Cardinality Estimator
+
+Lets dig in to every step, one by one.
