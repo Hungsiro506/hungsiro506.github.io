@@ -16,7 +16,7 @@ what is that, why is that, or how is that...!.
 
 There are teams with dozen 10years+ C++ exp engineers but still struggling with memory leak, segment fault, un-readable code style. 
 - [1] : [Story about one team move from C++ to Rust](https://www.risingwave-labs.com/blog/building-a-cloud-database-from-scratch-why-we-moved-from-cpp-to-rust/) 
-- [2] : [Seg fault](https://github.com/logicalclocks/rondb/issues/125), [More Seg fault](https://github.com/logicalclocks/rondb/issues/122)   
+- [2] : [Seg fault](https://github.com/logicalclocks/rondb/issues/125), [and more seg fault](https://github.com/logicalclocks/rondb/issues/122)   
 
 
 C++ is turn to 40+ years old but a standard toolset for developer still missing. 
