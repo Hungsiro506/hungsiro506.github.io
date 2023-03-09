@@ -2,7 +2,7 @@
 
 
 If you starting a new project today in 2023 (and beyond) and you are thinking to do that in C++,
- then that would be a really bad decision...!
+ then that would be a really **bad decision**...!
 
 
 Problem is not in C++ itself, but the amount of sheer "unawareness around how to write C++ code correctly".
@@ -15,17 +15,17 @@ there is only one way to write the safest possible code - and teaching instituti
 what is that, why is that, or how is that...!.
 
 There are teams with dozen 10years+ C++ exp engineers but still struggling with memory leak, segment fault, un-readable code style. 
-- [1] : https://www.risingwave-labs.com/blog/building-a-cloud-database-from-scratch-why-we-moved-from-cpp-to-rust/  
-- [2] : https://github.com/logicalclocks/rondb/issues/125, https://github.com/logicalclocks/rondb/issues/122   
+- [1] : [Story about one team move from C++ to Rust](https://www.risingwave-labs.com/blog/building-a-cloud-database-from-scratch-why-we-moved-from-cpp-to-rust/) 
+- [2] : [Seg fault](https://github.com/logicalclocks/rondb/issues/125), [More Seg fault](https://github.com/logicalclocks/rondb/issues/122)   
 
 
 C++ is turn to 40+ years old but a standard toolset for developer still missing. 
-- [4] : https://www.youtube.com/watch?v=-UW0Fc03th4&ab_channel=MeetingCpp.  
+- [4] : [Link](https://www.youtube.com/watch?v=-UW0Fc03th4&ab_channel=MeetingCpp) 
   
  
-Alot of newly added database still being written in C++, and C++ will alive
+Alot of newly added databases still being written in C++, and C++ will alive
 more 50 years in financing and HFT. #cpp is not dead, it is just breathing old-lungs bedridden at some nursing home.
-- [3] : https://www.efinancialcareers.com/news/2022/05/c-in-finance?fbclid=IwAR3pyDm73m7JSo9t6UXXZg7ORHsxZR04dfNDd25i26Ap882tgKZBmDka0ow
+- [3] : [C++ in finance](https://www.efinancialcareers.com/news/2022/05/c-in-finance)
 
 
 If you good enough to write quality ( good and safe ) C++ code, then you can write any languages. Go learn Rust and Go-lang !
