@@ -5,5 +5,9 @@
 - [OLAP Components](olap_components.md)
 - [A Note About Distributed Table](distributed_table.md)
 
+### Enough Hardware for Software Engineer
 
+### Modern Data Stack
 
+### Quick Notes:
+- [C++ at 40](QN_cpp_2023.md)
