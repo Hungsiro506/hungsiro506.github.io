@@ -30,8 +30,8 @@ There are several mainstream forms of distributed table on exiting db in the mar
 - Manual can provide the best performance, but the threshold of use will increase.
 
 
-There is no free mean as we can clearly see hear.
-Distributed tables and distributed transaction pay a huge penalty on performance, of course. It's a trade of between HA, Scalability and Performance.
+There is no free mean as we can clearly see here.
+Distributed tables and distributed transaction pay a huge penalty on performance, of course. It's a trade off between HA, Scalability and Performance.
 
 Distributed database in OLAP is a different manner that will be covered in other blog posts.
 
