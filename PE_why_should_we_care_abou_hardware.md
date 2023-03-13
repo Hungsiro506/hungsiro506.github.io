@@ -1,7 +1,7 @@
 ### Why Should We Care About Hardware As Software Engineer
 
 
-To starting with this series, lets answer the question : " Why should we care about hardwares ?"
+To start with this series, lets answer the question : " Why should we care about hardwares ?"
 
 - **We have taught for so many years that software is independant of hardware, and that's simply not true.** When I began learning how to optimize programs myself, one big mistake I made was to rely primarily on the empirical approach. Not understanding how computers really worked, I would semi-randomly swap nested loops, rearrange arithmetic, combine branch conditions, inline functions by hand, and follow all sorts of other performance tips I’ve heard from other people, `blindly hoping for improvement`.
 
