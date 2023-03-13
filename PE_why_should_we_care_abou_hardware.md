@@ -9,7 +9,7 @@ To start with this series, lets answer the question : " Why should we care about
   
   [1] : [Mike Acton about two misconceptions](https://youtu.be/u8B3j8rqYMw?t=307)
    
-   **In the world of Performance Engineering** like : Database, Computational Engine,vGame Engine, Audio Software industry and the last but not least High Performance Trading, people really really care about the underlying hardware their code being running on. The Data Oriented Design and approaches to make full use of Modern Hardware like avoid branch miss prediction, cache friendly coding and taking advantages of SIMD instructions with vectorization are highly adopted. 
+   **In the world of Performance Engineering** like : Database, Computational Engine,Game Engine, Audio Software industry and the last but not least High Performance Trading, people really really care about the underlying hardware their code being running on. The Data Oriented Design and approaches to make full use of Modern Hardware like avoid branch miss prediction, cache friendly coding and taking advantages of SIMD instructions with vectorization are highly adopted. 
 
 You may not get familiar with those concepts for now, take a deep breath and step by step go through this series to learn about how Modern Hardware works and affects to the performance.
 You will learn about something like:
