@@ -5,7 +5,8 @@
 - [OLAP Components](olap_components.md)
 - [A Note About Distributed Table](distributed_table.md)
 
-### Enough Hardware for Software Engineer
+### Performance Engineering
+- [Why should we care about hardware as software enginer ?](PE_why_should_we_care_about_hardware.md)
 
 ### Modern Data Stack
 
