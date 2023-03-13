@@ -22,3 +22,9 @@ You will learn about something like:
 
 It would have probably saved me dozens, if not hundreds of hours of going no where with performance chasing if I learned computer architecture _before_ doing algorithmic programming. And the closing idea for the series preface is the main idea from [MonetDbX100 paper](https://www.cidrdb.org/cidr2005/papers/P19.pdf):
 " The more human friendly your code is, the more harmful it makes to the CPU ". 
+
+Next Topics:
+- [A Tour Of Modern Hardware](PE_a_tour_of_modern_hardware.md)
+- [Cache Effect On Performance](PE_cache_effect_on_performance.md)
+- [Data Oriented Design](PE_data_oriented_design.md)
+- [SIMD Mini Series](PE_SIMD_mini_series.md)
