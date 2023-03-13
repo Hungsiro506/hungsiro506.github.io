@@ -5,7 +5,7 @@ To start with this series, lets answer the question : " Why should we care about
 
 - **We have taught for so many years that software is independant of hardware, and that's simply not true.** When I began learning how to optimize programs myself, one big mistake I made was to rely primarily on the empirical approach. Not understanding how computers really worked, I would semi-randomly swap nested loops, rearrange arithmetic, combine branch conditions, inline functions by hand, and follow all sorts of other performance tips I’ve heard from other people, `blindly hoping for improvement`.
 
-- The second lie is that code should be designed around them all of the world that you should have this model of how the world works and **you should telling the story inside your code and ignoring the realities the both the hardware and the data.**  Yes, that's how software engineer think about the world via Object Oriented Design and Domain Driven Design and it's an other missconception ( or tradeoff OOD-DOD ). 
+- The second lie is that code should be designed around them all of the world that you should have this model of how the world works and **you should telling the story inside your code and ignoring the realities the both the hardware and the data.**  Yes, that's how software engineer think about the world via Object Oriented Design and Domain Driven Design and it's an other missconception ( or it's a tradeoff between OOD-DOD ). 
   
   [1] : [Mike Acton about two misconceptions](https://youtu.be/u8B3j8rqYMw?t=307)
    
