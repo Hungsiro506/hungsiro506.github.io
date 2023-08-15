@@ -107,7 +107,7 @@ The Traits System in Rust has several advantages over classical inheritance:
 
 [3] **No Fragile of Base Class Problem**.
 
-[4] Static Dispatch and Performance. 
+[4] **Static Dispatch and Performance.** 
 
 
 ### Async Programming
@@ -118,3 +118,9 @@ Just like Js, the async/await syntax is a sugar syntactic for working with Futur
 
 
 ### Meta programming
+
+Rust support two approach to meta-programming: Procedural Macros and Compile-Time Code Execution. Some of the languages that have influenced the design and features of Rust Meta Programming
+- C/C++. Rust's macros are more powerful and flexible compare to C++ and C++ supports a form of metaprogramming called template metaprogramming, where computations and code generation occur at compile time using template specialization and type traits. Rust's type system and associated constants/types feature share some similarities with C++ template metaprogramming.
+- Lisp, to be honest, iam not known well about Lisp, but there are alot topics about the simmilar of Rust meta-programming vs Lisp design. 
+
+**In summary**: Rust has emerged as a beloved language among thousands of engineers, both as a hobby and in professional settings. While the individual features provided by Rust may not be entirely novel, it is the unique way in which Rust combines these features with its safety and ownership model that sets it apart. This innovative approach is a key factor in Rust's growing popularity as we enter the year 2023.
