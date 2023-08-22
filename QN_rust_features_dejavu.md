@@ -5,7 +5,8 @@
 
 Rust borrows from C++ and this principle can be summarized with the following phrase:
 - What you don't use, you don't pay for.
-- What you do use, you could not get any other hand coded better. 
+- What you do use, you could not get any other hand coded better.
+  
 The high level abstractions like generics and collections (*generics, iterators, templates, collections, classes*) should not impose any runtime overhead or performance penalties compared to code using low level abstractions like for loops, counters, if/else, row pointers.
 _See more : [Rust vs Java generic](LAN_rust_vs_java_generic.md)_
 
