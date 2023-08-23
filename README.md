@@ -18,3 +18,4 @@
 ### Quick Notes:
 - [C++ at 40](QN_cpp_2023.md)
 - [Rust Dejavu](rust_features_dejavu.md)
+- [Rust Generic vs Java Generic](Olap_Cloud_Native_DW.md)
