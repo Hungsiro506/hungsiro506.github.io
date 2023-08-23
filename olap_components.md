@@ -97,6 +97,8 @@ Implementation from other databases:
 Andy's Note:
 _`The long-term trend to watch is the proliferation of frameworks like Velox, DataFusion, and Polars. Along with projects like Substrait, the commoditization of these query execution components means that all OLAP DBMSs will be roughly equivalent in the next five years. Instead of building a new DBMS entirely from scratch or hard forking an existing system (e.g., how Firebolt forked Clickhouse), people are better off using an extensible framework like Velox. This means that every DBMS will have the same vectorized execution capabilities that were unique to Snowflake ten years ago. And since in the cloud, the storage layer is the same for everyone (e.g., Amazon controls EBS/S3), the critical differentiator between DBMS offerings will be things that are difficult to quantify, like UI/UX stuff and query optimization.`_
 
+There has been an explosion in the number of new databases in the recent years - it is easier than ever to build a new database with composable components.
+
 ### Shared Disk Architecture Trend
 
 There are two common architecture of distributed database:
