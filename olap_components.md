@@ -99,30 +99,3 @@ _`The long-term trend to watch is the proliferation of frameworks like Velox, Da
 
 There has been an explosion in the number of new databases in the recent years - it is easier than ever to build a new database with composable components.
 
-### Shared Disk Architecture Trend
-
-There are two common architecture of distributed database:
-Shared nothing and Shared disk.
-Some advantages of Shared Disk Architecture:
-- Scale compute layer independently from the storage layer.
-- Easy to shutdown idle compute layer resources.
-- May need to pull uncached persistent data from storage
-layer to compute layer before applying filters.
-
-Traditionally the storage layer in shared-disk
-DBMSs were dedicated on-prem NAS.
-- Example: Oracle Exadata
-
-Cloud object stores are now the prevailing storage
-target for modern OLAP DBMSs because they are
-"infinitely" scalable.
-- Examples: Amazon S3, Azure Blob, Google Cloud Storage, MinIO, Cepth, JuiceFS
-
-Cloud data warehouses are mostly Shared disk architecture. 
-Newly MPP and OLAP databases are also follow the compute-storage segeration by
-partitioning tables into large, immutable files stored in an object store.
-
-Fundamentally these new DBMSs are not different than
-previous distributed/parallel DBMSs except for the
-prevalence of a cloud-based object store for shared disk.
-- Firebolt, Bigquery, Redshift, ....
