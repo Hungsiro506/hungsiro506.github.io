@@ -19,4 +19,4 @@
 - [C++ at 40](QN_cpp_2023.md)
 - [Rust Dejavu](rust_features_dejavu.md)
 - [Rust Generic vs Java Generic](LAN_rust_vs_java_generic.md)
-- [The Chicken and Egg in Language Compilers](QN_language_compiler_in_itself.md)
+- [The Dog-fooding in Language Compilers](QN_language_compiler_in_itself.md)
