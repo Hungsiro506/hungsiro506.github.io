@@ -1,6 +1,6 @@
 ### Writing a compiler in its own language
 
-A compiler is a program that translates source code written in one programming language into machine code or another language. It is possible for a compiler to be written in its own language:
+A compiler is a program that translates source code written in one programming language into machine code or another language. It is common for a compiler to be written in its own language:
 - C++ compilers written in C ++
 - Go runtime written in Go
 - Rustc is written in Rust
