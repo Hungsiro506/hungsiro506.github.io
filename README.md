@@ -19,4 +19,4 @@
 - [C++ at 40](QN_cpp_2023.md)
 - [Rust Dejavu](rust_features_dejavu.md)
 - [Rust Generic vs Java Generic](Olap_Cloud_Native_DW.md)
-- [The Chicken and Egg in Language Compilers](QN_langague_compiler_in_itself.md)
+- [The Chicken and Egg in Language Compilers](QN_language_compiler_in_itself.md)
