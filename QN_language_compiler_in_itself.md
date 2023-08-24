@@ -17,7 +17,7 @@ Yes, It's possible for compiler to be written in its own languages, but it would
 
 
 ### But ... Why ? 
-The second question should be: Why do programming languages tent to be written in itself ? 
+The second question should be: Why do programming languages compilers and runtime tent to be written in itself ? 
 - Simplicity and Consistency: Implementing a compiler in the same language as the one it compiles provides a consistent development environment. It allows developers to work with a single language and its associated tools, libraries, and ecosystem, reducing the need to switch between different languages and tools. You wont be broken by someone else change. 
 
 - Dog-fooding: Using its own will create a feedback loop where the language and its compiler can be iteratively refined together. 
